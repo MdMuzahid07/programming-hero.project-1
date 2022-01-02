@@ -1,0 +1,72 @@
+#home .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home {
+    background: linear-gradient(65deg, var(--light-blue) 50%, rgb(255, 255, 255) 37%, rgb(255, 255, 255) 100%);
+    width: 100%;
+}
+
+.text-area .info {
+    margin: 0 1rem;
+    max-width: 70%;
+    margin-top: 30vh;
+    flex-wrap: wrap;
+}
+
+.text-area .info h3 {
+    font-size: 1.5rem;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.text-area .info h2 {
+    font-size: 2rem;
+    color: var(--white);
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+.text-area .info h1 {
+    font-size: 4rem;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+.text-area .info p {
+    font-size: 1.2rem;
+    color: var(--white);
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+.text-area .btn {
+    font-size: 1.5rem;
+    color: var(--light-blue);
+    background-color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem 1rem 2rem 1rem ;
+    margin: 1rem 0rem;
+}
+
+.text-area .btn:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+
+.text-area .img-area {
+    margin: 0 1rem;
+    max-width: 30%;
+}
+
+#home .container .row .img-area  img{
+    height: 400px;
+    width: 430px;
+    margin-top: 20vh;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 1rem;
+}
