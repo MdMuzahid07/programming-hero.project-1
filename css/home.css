@@ -5,7 +5,7 @@
 }
 
 #home {
-    background: linear-gradient(65deg, var(--light-blue) 50%, rgb(255, 255, 255) 37%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(65deg, var(--home-bg-gradient-color) 50%, rgb(255, 255, 255) 37%, rgb(255, 255, 255) 100%);
     width: 100%;
 }
 
@@ -39,22 +39,27 @@
     font-size: 1.2rem;
     color: var(--white);
     letter-spacing: 1px;
-    margin: 1rem 0rem;
+    margin-bottom: 2rem;
 }
 
-.text-area .btn {
-    font-size: 1.5rem;
+#home .row .text-area .info  a {
     color: var(--light-blue);
+    padding: 0.7rem 3rem;
+    font-size: 1.5em;
     background-color: var(--white);
-    padding: 0.5rem 1rem;
     border-radius: 1.5rem 1rem 2rem 1rem ;
-    margin: 1rem 0rem;
 }
 
-.text-area .btn:hover {
+#home .row .text-area .info  a:hover {
+    color: var(--white);
     background-color: var(--red);
-    color: white;
 }
+
+#home .row .text-area .info a:hover {
+    color: var(--white);
+    background-color: var(--red);
+}
+
 
 
 .text-area .img-area {
