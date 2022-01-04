@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 5rem;
 }
 
 #portfolio .container .row .content .img-box {

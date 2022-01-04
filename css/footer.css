@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--black);
+}
+
+.container .footer h1 {
+    text-align: center;
+    font-size: 1em;
+    padding: 2rem 0rem;
+    color: var(--white);
+}

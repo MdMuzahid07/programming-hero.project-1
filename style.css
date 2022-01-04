@@ -23,8 +23,8 @@
     --light-background: #71c2db;
     --light-white: #fafafa;
     --white: #FFFFFF;
-    --about-bg-color: #4d6e99;
-    --home-bg-gradient-color: #5654bd;
+    --about-bg-color: #464646;
+    --home-bg-gradient-color: #59529b;
 }
 
 html {
@@ -42,10 +42,6 @@ section {
     width: 100%;
 }
 
-#portfolio section {
-    height: 150vh;
-    width: 100%;
-}
 
 
 ::selection {
@@ -58,11 +54,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-    background-color: var(--white);
+    background-color: var(--light-black);
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: var(--light-blue);
+    background-color: var(--red);
 }
 
 .container {
