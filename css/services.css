@@ -1,5 +1,6 @@
 #services {
     background-color: var(--white);
+    background-color: rgb(255, 255, 255);
 }
 
 #services .container .row {

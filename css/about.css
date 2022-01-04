@@ -15,7 +15,7 @@
 
 #about .row .profile-image img {
     width: 400px;
-    height: 500%;
+    height: 500px;
     object-fit: cover;
     position: center center;
     border-radius: 10px;

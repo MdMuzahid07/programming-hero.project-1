@@ -1,0 +1,28 @@
+
+
+#portfolio .container .row .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#portfolio .container .row .content .img-box {
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#portfolio .container .row .content .img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 0.5rem 0rem var(--black);
+}
+
+#portfolio .container .row .content .img-box img:hover {
+    box-shadow: 0rem 0rem 5rem 0rem var(--white);
+    transform: scale(1.01);
+}
