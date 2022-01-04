@@ -1,4 +1,125 @@
-#service {
+#services {
     background-color: var(--white);
 }
 
+#services .container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services .container .row .card{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0rem 0rem 0.5rem 0rem var(--black);
+    margin-top: 20vh;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+#services .container .row .card:hover {
+    transform: scale(1.01);
+    box-shadow: 0rem 0rem 1rem 0rem var(--black);
+}
+
+#services .container .row .card .service-1 i {
+    color: var(--red);
+    font-size: 4em;
+}
+
+#services .container .row .card .service-2 i {
+    color: var(--red);
+    font-size: 4em;
+}
+
+#services .container .row .card .service-3 i {
+    color: var(--red);
+    font-size: 4em;
+}
+
+#services .container .row .card .service-1 h1 {
+    color: var(--red);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+#services .container .row .card .service-1 p {
+    color: var(--black);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+#services .container .row .card .service-2 h1 {
+    color: var(--red);
+    font-size: 1.5rem;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+#services .container .row .card .service-2 p {
+    color: var(--black);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+#services .container .row .card .service-3 h1 {
+    color: var(--red);
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+#services .container .row .card .service-3 p {
+    color: var(--black);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+#services .container .row .card .service-1 a {
+    color: white;
+    background-color: var(--red);
+    padding: 0.7rem 3rem;
+    border-radius: 1.5rem 1rem 2rem 1rem;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+#services .container .row .card .service-1 a:hover {
+    color: white;
+    background-color: var(--black);
+}
+
+#services .container .row .card .service-2 a {
+    color: white;
+    background-color: var(--red);
+    padding: 0.7rem 3rem;
+    border-radius: 1.5rem 1rem 2rem 1rem;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+#services .container .row .card .service-2 a:hover {
+    color: white;
+    background-color: var(--black);
+}
+
+#services .container .row .card .service-3 a {
+    color: white;
+    background-color: var(--red);
+    padding: 0.7rem 3rem;
+    border-radius: 1.5rem 1rem 2rem 1rem;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+#services .container .row .card .service-3 a:hover {
+    color: white;
+    background-color: var(--black);
+}

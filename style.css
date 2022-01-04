@@ -15,7 +15,7 @@
 }
 
 :root {
-    --red: #FF5642;
+    --red: #fa5e4c;
     --black: #292222;
     --light-black: #4B4A4A;
     --gold: #FFC733;
@@ -69,7 +69,7 @@ html::-webkit-scrollbar-thumb {
     width: 100%;
     position: fixed;
     z-index: 1000;
-    background-color: var(--black);
+    background-color: var(--white);
     background-position: center center;
     background-image: url(images/svg-images/preloader.gif);
     background-repeat: no-repeat;
